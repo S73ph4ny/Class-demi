@@ -1,4 +1,60 @@
 this is my second file: > file2.txt
+GIT/GITHUB COMANDS CLASS
+sudo apt update
+  402  sudo apt install git -y
+  403* git version 2.53.
+  404  git --version
+  405  ssh-keygen -t ed25519 -C "stephasa09@gmail.com"
+  406  eval "$(ssh-agent -s)"
+  407* ssh-add ~/.ssh/id_ed2551
+  408  git config --global user.name S73ph4ny
+  409  git config --global user.email stephasa09@gmail.com
+  410  git config --list
+  411  clear
+  412  mkdir code
+  413  cd code
+  414  ls
+  415  vim app.py
+  416  ls -l
+  417  echo "this is a simple file" . output.txt
+  418  ls -l
+  419  echo "this is my second file: > file2.txt
 
+
+echo "this is my second file: > file2.txt
+  420  ls -l
+  421  git init
+  422  ls -l
+  423  ls -la
+  424  git add *
+  425  git status
+  426  git commit -m "this is my first got commit"
+  427  git config --global user.email stephasa09@gmail.com
+  428  git config --list
+  429  git status
+  430  ls -la
+  431  git log
+  432  git branch -M master
+  433  git remote add origin https://github.com/S73ph4ny/Class-demi.git
+  434  git push -u origin main
+  435  git push -u origin master
+  436  git remote set-url origin git@github.com:S73ph4ny/Class-demi.git
+  437  git push -u origin master
+  438  git branch
+  439  git branch -r
+  440  git branch -remote
+  441  git branch --remote
+  442  git pull
+  443  git branch --remote
+  444  git checkout origin/dev
+  445  git switch origin/dev
+  446  git switch dev
+  447  git branch
+  448  echo "data is on branch dev" > data.txt
+  449  git add *
+  450  git commit -m "commit to dev branch"
+  451  git push
+  452  clear
+  453  history
 
 echo this is my second file:
